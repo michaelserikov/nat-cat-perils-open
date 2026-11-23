@@ -1,0 +1,90 @@
+{
+ "steps": 305766,
+ "storms": 4910,
+ "period": [
+  1980,
+  2025
+ ],
+ "landfalls": [
+  {
+   "region": "South-West Indian Ocean (Mozambique, Madagascar)",
+   "landfalling_storms": 126,
+   "per_year": 2.74,
+   "var_over_mean": 0.82,
+   "p_overdispersed": 0.8,
+   "share_ge_64kt": 0.41,
+   "n_ge_64kt": 49,
+   "max_wind_kt": 140.0,
+   "strongest": "HARY 2002",
+   "per_year_first_half": 2.74,
+   "per_year_second_half": 2.74,
+   "gpd_threshold_kt": 50.0,
+   "gpd_n_exc": 66,
+   "gpd_shape": -0.51,
+   "return_level_kt": {
+    "10": 120.0,
+    "25": 129.0,
+    "50": 133.0
+   },
+   "return_level_25yr_kt_90pct_range": [
+    113.0,
+    133.0
+   ]
+  },
+  {
+   "region": "Arabian Sea (Oman, Yemen, Somalia)",
+   "landfalling_storms": 24,
+   "per_year": 0.52,
+   "var_over_mean": 0.91,
+   "p_overdispersed": 0.64,
+   "share_ge_64kt": 0.21,
+   "n_ge_64kt": 5,
+   "max_wind_kt": 95.0,
+   "strongest": "MEKUNU 2018",
+   "per_year_first_half": 0.39,
+   "per_year_second_half": 0.65,
+   "gpd_threshold_kt": 50.0,
+   "gpd_n_exc": 7
+  }
+ ],
+ "europe": {
+  "storms_in_box": 109,
+  "per_year": 2.37,
+  "with_wind_ge_64kt_in_box": 17,
+  "with_wind_ge_50kt_in_box": 56,
+  "top5_by_wind": [
+   [
+    "OPHELIA",
+    "2017",
+    "100.0",
+    "ET"
+   ],
+   [
+    "GORDON",
+    "2012",
+    "85.0",
+    "TS"
+   ],
+   [
+    "ERIN",
+    "2025",
+    "80.0",
+    "ET"
+   ],
+   [
+    "LORENZO",
+    "2019",
+    "75.0",
+    "ET"
+   ],
+   [
+    "IVAN",
+    "1998",
+    "75.0",
+    "ET"
+   ]
+  ],
+  "first_half_per_year": 1.78,
+  "second_half_per_year": 2.96
+ }
+}
